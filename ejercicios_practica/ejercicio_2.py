@@ -44,11 +44,12 @@ else:
 # Verifique si la primera letra de la primera palabra
 # es mayor a la primera letra de la segunda palabra
 # Imprima en pantalla según corresponda
-
-if texto_1 > texto_2:
-    print(f'La letra {texto_1[0]} es mayor que {texto_2[0]}')
+t1 = texto_1[0]
+t2 = texto_2[0]
+if t1 > t2:
+    print(f'La letra {t1} es mayor que {t2}')
 else:
-    print(f'La letra {texto_2[0]} es mayor que {texto_1[0]}')
+    print(f'La letra {t2} es mayor que {t1}')
 
 copia_texto_1 = texto_1  # Copia de la variable texto_1
 
